@@ -1,0 +1,152 @@
+.container{
+    margin:auto;
+    width: 700px;
+
+    border: 1px solid white;
+}
+.zomato{
+    border: 1px solid rgba(172, 163, 163, 0.388);
+    width: 400px;
+    box-shadow: 10px 10px 10px 10px gray;
+   
+    height: 600px;
+    border-radius:  40px; ;
+}
+.card{
+    position: relative;
+}
+#food{
+    border: none;
+    box-sizing: border-box;
+    width: 200;
+    height: 350px;
+    border-radius: 34px;
+    padding: 10px;
+    box-shadow: none;
+    
+}
+#discount-box{
+    border: 1px solid none;
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    padding: 16px;
+    margin-left : 10px;
+    background-color:blue;
+    
+}
+#promotion{
+    color:#352c2f;
+    padding: 3px 14px;
+    background-color: hwb(0 100% 0% / 0.584);
+    border-radius: 0px;
+    font-size: 14px;
+    position: absolute;
+    left: 10px;
+    top: 15px;;
+    margin: 10px;
+    border-radius:5px;
+}
+#time{
+    position: absolute;
+    border: 0.2px solid white;
+    background-color: hwb(0 100% 0% / 0.907);
+    right: 30px;
+    bottom: 10px;
+    color : black;
+    padding: 5px 14px;
+    border-radius: 5px;
+}
+#Restaurant-name{
+    padding: 3px 14px;
+    margin-left : 10px;
+}
+#Food-Type{
+    margin-top: -10px;
+    margin-left:10px;
+    color:#909090;
+    font-size: 18px;
+    /* padding: 3px 14px; */
+    margin-left : 25px;
+}
+hr{
+    margin: 20px;
+    border: 0.005px solid lightgray;
+}
+#safety{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    
+    
+}
+
+.para{
+    color: lightgray;
+}
+
+
+.hero{
+    background-image: url('https://source.unsplash.com/1600x900/?india');
+    width: 700px;
+    margin: 40px auto;
+    border-radius: 20px;
+    height: 400px;
+    background-size: cover;
+}
+.hero-content{
+    color: white;
+    padding: 80px 50px;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    padding: 16px 36px;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+/*Zomato food*/
+.her01{
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    width: 700px;
+    margin: 40px auto;
+    border-radius: 20px;
+    height: 400px;
+    background-size: cover;
+}
+#logo{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+}
+#state{
+    /* border: 1px solid white; */
+    border-right: none;
+    padding: 16px 20px;
+    padding-right: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    position: absolute;
+    left: 250px;
+}
+#search{
+    padding: 16px 30px;
+    
+    position: absolute;
+    left: 403px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+}
